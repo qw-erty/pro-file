@@ -3,12 +3,22 @@
  /********************************************************/
   .skill-item{
     height: 300px;
-    width: 650px;
-    
+    width: 39rem;
+    z-index: 100;
+    padding-left: 10%;
   }
-  .skill-item img{
-    border-radius: 10%;
-  }
+
+  @media screen and (max-width: 430px) {
+    .skill-item{
+      width: 15rem;
+      padding: 0;
+      height: 200px;
+      box-shadow: 1px 1px 10px 1px teal;
+      
+    }
+}
+
+ 
  /********************************************************/
 :root {
   --bs-blue: #0d6efd;
